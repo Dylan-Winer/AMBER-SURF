@@ -1,9 +1,0 @@
-﻿"puck_dia"= 0.28in'FLXLC-A diameter
-"puck_thick"= 0.03in'FLXLC-A thickness
-"sensor_width_space"= 0.5in'Width from sensor to middle
-"sensor_length_space"= 2.4in'Length b/w sensors
-"divot_depth"= 0.02in'Divot depth in bottom rubber
-"divot_dia"= "puck_dia" + 0.005'Divot diameter in bottom rubber
-"D1@Sketch3"="divot_dia"
-"D2@Sketch3"="sensor_width_space"
-"D1@Cut-Extrude2"="divot_depth"

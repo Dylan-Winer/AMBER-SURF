@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "MPU_Library")(type "KiCad")(uri "${KIPRJMOD}/MPU_Library.pretty")(options "")(descr ""))
-)
