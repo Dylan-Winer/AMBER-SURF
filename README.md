@@ -4,7 +4,7 @@ Repository hosting project files as part of my Summer Undergraduate Research Fel
 # AMBER Lab SURF 2025 — G1 Foot Sensing Module
 
 High-rate (1000 Hz) force + IMU logging for the Unitree G1 humanoid foot.  
-This repository contains Teensy 4.x firmware and usage notes to capture synchronized FSR forces and MPU-6050 orientation/gyro data to CSV via CoolTerm.
+This repository contains Teensy 4.1 firmware and usage notes to capture synchronized FSR forces and MPU-6050 orientation/gyro data to CSV via CoolTerm.
 
 ---
 
@@ -45,9 +45,9 @@ time_s,FSR1_N,FSR2_N,FSR3_N,FSR4_N,qw,qx,qy,qz,gx_rad_s,gy_rad_s,gz_rad_s
 
 ## Hardware overview
 
-- **Controller:** Teensy 4.x (3.3 V logic)
-- **FSRs:** 4× Interlink/A-series (per-sensor linear calibration applied)
-- **IMU:** MPU-6050 @ 400 kHz I²C
+- **Controller:** Teensy 4.1 (3.3 V logic)
+- **FSRs:** 4× FlexiForce A201 (per-sensor linear calibration applied)
+- **IMU:** MPU-6050
 - **Loop rate:** 1000 Hz fixed tick (1 ms)
 
 ---
