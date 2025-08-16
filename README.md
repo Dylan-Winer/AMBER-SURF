@@ -118,3 +118,17 @@ time_s,FSR1_N,FSR2_N,FSR3_N,FSR4_N,qw,qx,qy,qz,gx_rad_s,gy_rad_s,gz_rad_s
    - FSR calibration `slope[]` and `intercept[]`.
    - Mahony gains `Kp`, `Ki`.
 4. **Upload**.
+
+## 3) Analyze Data (Python)
+
+Program link (full script):  
+**➡️ https://github.com/Dylan-Winer/AMBER-SURF/blob/main/Python_Code/G1_Data_Analysis/Force_Plot_Final.py**
+
+**Use it like this:**
+- Replace `file_path` with your CoolTerm **.txt/.csv** path.
+- Set `t_start_s` and `t_end_s` (easiest way to focus on a window; set `0` to analyze everything).
+- Run the script to get **plots** and **replay videos** (MP4 if FFmpeg available; otherwise GIF).
+- Don’t need outputs? Comment out the plot sections and/or the `make_replay_video(...)` calls.
+
+**Expected columns** in the file:
+time_s,FSR1_N,FSR2_N,FSR3_N,FSR4_N,qw,qx,qy,qz,gx_rad_s,gy_rad_s,gz_rad_s
