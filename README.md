@@ -20,6 +20,7 @@ This section covers the physical build of the foot modules and begins exactly wh
 3. **Bolt the remaining hardware**
    - From the bag labeled **“4/40 BOLTS & SPACERS”**, locate the **four remaining adhesive nuts**, **4-40 bolts**, and **spacers**.
    - Install these in the positions on the **right foot** where bolts are currently missing. Snug the 4-40 bolts; don’t over-torque.
+   - There are through-holes cut into the cable channels on both the heel connectors. Use these to fit an allen key through. You may need to push the cables out of the way with the allen key.
 
 4. **Bond the adhesive nuts to the rubber**
    - Remove the rubber sole; place a small, even bead of **Gorilla Glue** *or* a suitable **epoxy** on the **underside of all 8 adhesive nuts**.
