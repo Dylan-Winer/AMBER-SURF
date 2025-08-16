@@ -1,6 +1,62 @@
 # AMBER-SURF
 Repository hosting project files as part of my Summer Undergraduate Research Fellowship (SURF) 2025 project within the AMBER Lab at Caltech.
 
+## Mechanical Components & Assembly
+
+This section covers the physical build of the foot modules and begins exactly where the right-foot assembly was left off.
+
+---
+
+### Complete the Right Foot: Rubber Sole & Adhesive Nuts
+
+1. **Get the sole DXF**
+   - Download `sole_base.DXF` from this repo:  
+     https://github.com/Dylan-Winer/AMBER-SURF/blob/main/SolidWorks-CAD/G1_Integration/DXF_G1_3/sole_base.DXF
+
+2. **Cut the rubber sole**
+   - Acquire **1/8" thick rubber** sheet.
+   - **Waterjet** cut the sole using `sole_base.DXF`. Deburr/trim if needed for a clean perimeter.
+
+3. **Bolt the remaining hardware**
+   - From the bag labeled **“4/40 BOLTS & SPACERS”**, locate the **four remaining adhesive nuts**, **4-40 bolts**, and **spacers**.
+   - Install these in the positions on the **right foot** where bolts are currently missing. Snug the 4-40 bolts; don’t over-torque.
+
+4. **Bond the adhesive nuts to the rubber**
+   - Remove the rubber sole; place a small, even bead of **Gorilla Glue** *or* a suitable **epoxy** on the **underside of all 8 adhesive nuts**.
+   - Press the **waterjet rubber sole** onto the adhesive nuts with **even pressure**. Using a **vise** to hold the foot makes this easier; protect surfaces with scrap pads.
+   - **Cure per adhesive instructions.** (If using Gorilla Glue, lightly dampen the rubber for proper foaming; for epoxy, degrease both surfaces first.)
+
+5. **Prep for base plate + toe installation**
+   - **Unscrew** the four **4-40 bolts & spacers** that mount the **heel connector** to the foot so the **right foot matches the left**.
+   - The **heel must come off** so the **base plate and toe** can be **slid on from the front**.
+
+> ✅ Quick checklist  
+> - [ ] Rubber sole waterjet and deburred  
+> - [ ] All 8 adhesive nuts bonded and cured  
+> - [ ] Heel connector hardware removed (right foot)  
+> - [ ] Fit check: base plate + toe can slide on from the front
+
+---
+
+### Install Each Module (Left & Right Feet)
+
+1. **Slide-on fit**
+   - **Slip the G1 foot** through the **toe cover** until the bottom of the G1 foot is **fully seated** on the **top of the bottom base plate**.
+   - Verify the **toe and heel bumpers** **fully enclose** the foot with uniform contact.
+
+2. **Reinstall heel hardware**
+   - Cover the heel of the G1 with the **heel mounts**.
+   - **Screw the four 4-40 bolts + spacers** into the **four heel-mount holes**. Tighten evenly in a cross pattern until snug.
+
+3. **Cable & strain relief**
+   - Route cables cleanly along edges and through any provided channels. Add **strain relief** (zip ties/adhesive anchors) to protect connectors and solder joints.
+
+4. **USB to host**
+   - Connect **micro-USB** from **each foot module** to the computer. In practice you’ll likely use **USB extension cables** plus **90° micro-USB cables** to keep a low profile.
+
+5. **Proceed to logging**
+   - Follow the **Arduino/CoolTerm** instructions in the previous section to set **per-foot baud rates** and **capture data**.
+
 # AMBER Lab SURF 2025 — G1 Foot Sensing Module
 
 High-rate (1000 Hz) force + IMU logging for the Unitree G1 humanoid foot.  
