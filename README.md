@@ -31,7 +31,7 @@ This section covers the physical build of the foot modules and begins exactly wh
    - The **heel must come off** so the **base plate and toe** can be **slid on from the front**.
 
 > ✅ Quick checklist  
-> - [ ] Rubber sole waterjet and deburred  
+> - [ ] Rubber sole waterjet and is clean  
 > - [ ] All 8 adhesive nuts bonded and cured  
 > - [ ] Heel connector hardware removed (right foot)  
 > - [ ] Fit check: base plate + toe can slide on from the front
@@ -60,7 +60,7 @@ This section covers the physical build of the foot modules and begins exactly wh
 # AMBER Lab SURF 2025 — G1 Foot Sensing Module
 
 High-rate (1000 Hz) force + IMU logging for the Unitree G1 humanoid foot.  
-This repository contains Teensy 4.1 firmware and usage notes to capture synchronized FSR forces and MPU-6050 orientation/gyro data to CSV via CoolTerm.
+The following contains Teensy 4.1 usage notes to capture synchronized FSR forces and MPU-6050 orientation/gyro data to CSV via CoolTerm.
 
 ---
 
